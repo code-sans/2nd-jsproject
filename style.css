@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+    display: flex;
+    
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('back.png');
+    background-size: cover;
+}
+
+.BMI {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+    background-color: rgb(153, 183, 143);
+    height: 200px;
+    margin-left: 50px;
+    zoom: 1.54;
+    padding: 15px;
+}
+
+#topic {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(53, 73, 73);
+    margin-bottom: 10px;
+}
+
+#Height, #Weight, .button {
+    margin: 3px;
+    margin-top: 5px;
+    text-align: left;
+}
+
+.button {
+    padding-left: 10px;
+    padding-right: 10px;
+}
